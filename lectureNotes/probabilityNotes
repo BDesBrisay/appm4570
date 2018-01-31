@@ -1,0 +1,50 @@
+
+Probability is one way to quantify outcomes that cannot be predicted with 
+uncertanty
+
+Sample Space
+    Probabilistic process is the system/experiment which results are uncertain
+    Outcome is the output to this process
+    Sample Space of a probabilistic process is the set of all possible outcomes  
+        of that process
+        
+Set theory 
+    Set is a collection of objects
+    Super general
+    Set Operations:
+        Union: AuB = all elements in both A and B
+        Intersection: AnB = All elements A and B share
+        Compliment: One set in not two
+            You have to define a set of objects under consideration
+            A^c = whatever is not in A
+    Examples:
+        Flipping a coin
+            Sample space = either H or T
+            |SS| = 2
+        Selecting card from deck
+            Sample Space = {1,13 * {H, S, D, C}}
+            |SS = 52
+        Measuring Commute time on a particular morning
+            Could be infinite
+            Could be short
+            Many factors outside of your control
+            Sample space = {0, t} where t = Real num
+            
+            
+    
+Natural numbers
+    |A| = size/num of elements
+    N = {0,1,2,3,...}
+    |N| = infinity
+    
+    R - all real numbers
+    |R| = infinity
+    yet |R| != |N|
+    
+    Z = integers = {...,-2,-1,0,1,2,...}
+    |Z| = infinity
+    
+    Q = rational numbers
+    C = imaginary part to real numbers
+    
+    There are different sizes of infinity
