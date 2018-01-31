@@ -1,1 +1,24 @@
 Events
+    Any collection of outcomes from the sample space
+        A subset of the greater set
+    Simple event
+        Consists of one outcome
+        E = {(1,1)}
+    Compound event 
+        More than one outcome
+    Flipping a coin 3 times
+        Sample space = 
+            {
+            (h,h,h),
+            (h,h,t),
+            (h,t,h),
+            (t,h,h),
+            (h,t,t),
+            (t,h,t),
+            (t,t,h),
+            (t,t,t),
+            }
+        Event
+            all heads = {(h,h,h)}
+            more than one tails = {ttt,htt,tht,tth}
+            
