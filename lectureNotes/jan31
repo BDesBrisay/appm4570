@@ -169,6 +169,8 @@ Prop of them taking math
 P(M|S) = P(MnS)/P(S) = (40/1200)/(250/1200) = 4/25
 
 
+------- Feb 7 -------
+
 Bayes Theorem
     P(A|B) = P(B|A)P(A)/P(B)
     
