@@ -214,7 +214,7 @@ Random Variables
     
 --------- Feb 9 ---------
 
-Probability Density/Distribution frunctions
+Probability Density/Distribution functions
     (pdf)
     If random variable X is discrete, the pdf answers questiions like
         P(X=x) called probability mass function
@@ -323,7 +323,27 @@ EXAM on the 21
         = 1001 * 0.00032 * (0.8^10)
         = 0.034
          
+---------- Feb 14th -----------
+
+in R dbinom() = density binomial distribution
         
+        Binomial distribution => X ~ Bin(50,0.3) 
+        
+    The poisson distribution
+    describes total number of events that happen in certain time period
+    # vehicles arriving in parking lot in one week
+    # cookies sold in bake sale
+    
+    pmf for poisson?
+    P(X=x) = (e^-lambda * lambda^x)/x! 
+        lambda > 0 and is what happens on average
+        X~P(lambda)
+        
+    lambda = 4.5
+    P(X=5) = (e^-4.5 * 4.5^5)/5! = 0.1708...
+    
+    R command: dpois(x, lambda)
+    
         
         
         
