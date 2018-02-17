@@ -346,8 +346,21 @@ in R dbinom() = density binomial distribution
     
         
         
+--------- Feb 16 ---------
+
+    Continuous distributions
+        Random variableX is continuous P(X=x) = 0 for any x because there are infinite possibilities
+        Depth of a lake at any given point
         
+        Graph of density function
+            curve is f(x) to find area under curve between aand b
+            Get an integral from a to b of density function
+        P(a<X<b) = integral of f(x)dx
         
+        Consider a reference line connectingvalve stem on a tire tot the center point
+        
+    Uniform Distribution
+        PDF = f(x) = {1/b-a, x[a,b]    -     0, 0}
         
         
         
