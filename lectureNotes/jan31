@@ -360,7 +360,61 @@ in R dbinom() = density binomial distribution
         Consider a reference line connectingvalve stem on a tire tot the center point
         
     Uniform Distribution
-        PDF = f(x) = {1/b-a, x[a,b]    -     0, 0}
+        general PDF = f(x) = {1/b-a, x[a,b]    -     0, 0}
+        x~U(a,b)
+        
+    
+    Eponential distribution
+        Time to a certain event
+        Examples:
+            Time to birth
+            Time until a lightbulb fails
+            Time until service in a line
+            
+        Definition is said to hae an exponential distribution with the rate parameter of (lambda>0)
+        F(x;lmabda) = (lmabda*e)^(lmabda*x)
+        lmabda = rate
+        
+        X~Exp(lambda)
+        
+        P(X>t)
+            = Area under curve from t to infinity
+        memory list property says: 
+            p(X>t+t0 | X>t0)
+            = p(X>t)
+        p(X>t)
+        = integral (t to infinity) (lmabda*e)^(lmabda*x) dx
+        = lim b->infinity [-e^(-lmabda*x)] b t
+        = e^(-lmabda * t)
+        
+        p(X>t+t0 | X>t0) = ( p(X>t+t0 n x>t0) )/( p(x>t0) )
+        = p(x>t0+t)/p(X>t0)
+        = e^(-lmabda * t+t0) / e^(lmabda * t0)
+        = e^(-lmabda * t - lmabda * t0) / e^(lmabda * t0)
+        = e^(-lmabda * t)
+        = P(X>t)
+        
+        Blinker fliud runs out on avg of 10,000
+        Probability you take a 5,000 mile trip and it doesnt run out
+        
+        1/Average = lambda
+        
+        p(X >= 5000)
+        = e^(-1/10000 * 5000)
+        = e^(-1/2)
+        = 1/sqrt(e) 
+        = 0.6
+        
+        dexp() = pdf
+        pexp() = cdf: P(X<=x)  1-(P(X<=5000))
+        rexp() = random numbers from the exponential ditribution
+        qexp() = quantiles
+        
+        
+        
+        
+        
+    
         
         
         
