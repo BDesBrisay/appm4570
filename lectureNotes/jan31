@@ -411,11 +411,53 @@ in R dbinom() = density binomial distribution
         qexp() = quantiles
         
         
+--------- Feb 23 ----------
+
+    Exponential distribution continued
+        
+        Light bulbs light lasts less than 400 hours
+        X~Exp(1/1000)
+        P(X<400) = integral 0 to 400 (1/1000 e^(-1/1000 * t))dt
+        = 0.329
+        
+        P(X>5) = 1 - P(X<=5) = 1 - 0.0049
+        
+        P(X > t+t0 | X > t0) = P(X > t)
+        = integral t to infinity 
         
         
-        
+    The Beta Distribution
+        Provides positivedensity only for X in an interval from 0 to 1
+        Used to model variation in proportion or percentage of a quantity occuring in different samples
     
+        dbeta
+        pbeta
+        qbeta
+        rbeta
         
+        F(x; alpha, beta) = (Gamma(aplha + beta) / gamma(alpha) gamma(beta)) x^alpha-1 * (1-x)^beta-1
+        
+        gamma(alpha) = integral o to infinity (x^alpha-1 * e^-x)dx
+        
+    Cumulative Distribution Functions
+        P(X=x) = integral -infinity to x f(t)dt
+        As cdf goes to infinity => cdf = 1
+        
+        
+    f(x) = 3/4 (1-x^2) -1<=x<=1
+    
+    E(X^3)
+    integral g(x) pdf
+    
+    
+    Expected outcome
+    
+    Variance  using the expected value
+    
+    Var(X) = E(X^2) - [E(X)]^2
+    Var(X) = E([X-mew])^2
+    
+    Var(500X+100) = 500^2 Var(X)
         
         
         
