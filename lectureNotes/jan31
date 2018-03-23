@@ -460,10 +460,47 @@ in R dbinom() = density binomial distribution
     Var(500X+100) = 500^2 Var(X)
         
         
+----------- March 12 -----------
+
+    Confindence integrals
+    
+    We use theta hat (estimator) to estimate theta (Parameter)
+    estimator is random with respect to each sample
+    parameter is fixed
+    estimator = x bar
+    parameter = mu
+    
+    confidence intergral for mean
+    sample of n measurements
+    from normal population
+    sd known
+    
+    Z = (xbar - Mu) / sigma/sqrt(n)
+    Everything is fixed except for xbar
+    makes the whole thing random
+    = standard normal = ~ N(0,1)
+    sample will always be normal if n >= 1 if given the distribution of population
+    
+    
+    P(-1.96 <= Z <= 1.96) = 0.95
+    Z = (xbar - Mu) / sigma/sqrt(n)
+    
+    
+--------- March 14 ------
+    
+    confidence interval tells us ofarea under curve on interval
+    how confident we are that the true parameters is in the interval
+    
+    
+    
+    
+    
+    
+    
+    
         
-        
-        
-        
+     
+   
         
         
         
